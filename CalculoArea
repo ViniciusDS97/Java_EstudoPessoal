@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Area {
+	
+	public static void main (String[] args) {
+		
+		double h;
+		double b;
+		double B;
+		double area;
+	    
+		Scanner ler = new Scanner(System.in);
+	    
+		System.out.printf("Informe o valor da altura:\n");
+		h = ler.nextInt();
+		
+		System.out.printf("Informe o valor da base menor:\n");
+		b = ler.nextInt();
+		
+		System.out.printf("Informe o valor da base maior:\n");
+		B = ler.nextInt();
+		
+		area = (b+B) * h /2;
+		
+		System.out.printf("O valor da area é:" + area);
+	}
+
+}
