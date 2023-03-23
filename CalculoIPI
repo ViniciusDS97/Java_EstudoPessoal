@@ -1,0 +1,18 @@
+public class CalculoIPI {
+	
+	public static void main (String[] Args) {
+		
+		double poncentagem = 0.05;
+		String primeiroCodigo = "001";
+		double primeiroValor = 500;
+		double primeiraQuantidade = 15;
+		String segundoCodigo = "002";
+		double segundoValor = 250;
+		double segundoQuantidade = 30;
+		
+		double valorPago = (primeiroValor * primeiraQuantidade) + (segundoValor * segundoQuantidade) * (poncentagem / 100) + 1; 
+		System.out.println("Valor total pago = " + valorPago + " reais");
+		
+	}
+
+}
