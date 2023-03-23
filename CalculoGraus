@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class ConversaoGraus {
+	
+	public static void main (String[] Args) {
+		
+		Scanner ler = new Scanner(System.in);
+		System.out.println("Insira o valor de graus celsius\n");
+		int celsius = 0;
+		double kelvin  = celsius + 273.15;
+		double reaumur = celsius * 0.8;
+		double rankine = celsius * 1.8 + 32 + 459.67;
+		double fahrenheit = celsius * 1.8 + 32;
+		celsius = ler.nextInt();
+		
+		System.out.println("O valor em graus celsius é = " + celsius + "C°" + "\n" + "O valor em graus kelvin é = " + kelvin + "K°" + "\n" + "O valor em graus reaumur é = " + reaumur + "Re°" + "\n" + "O valor em graus rankine é = " + rankine + "Ra°" + "\n" + "O valor em graus fahrenheit é = " + fahrenheit + "F°");
+	}
+
+}
