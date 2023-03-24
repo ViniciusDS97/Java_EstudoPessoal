@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+class MediaGasto {
+	
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		int gastoJaneiro = 15000;
+		int gastoFevereiro = 23000;
+		int gastoMarco = 17000;
+		int gastoTrimestre;
+		int media;
+		
+		System.out.println("Em janeiro o gasto da empresa foi de = " + gastoJaneiro + " reais");
+		System.out.println("Em fevereiro o gasto da empresa foi de = " + gastoFevereiro + " reais");
+		System.out.println("Em março o gasto da empresa foi de = " + gastoMarco + " reais");
+		
+		gastoTrimestre = gastoJaneiro + gastoFevereiro + gastoMarco;
+		
+		System.out.println("O gasto total do semestre foi = " + gastoTrimestre + " reais");
+		
+		media = gastoTrimestre / 3;
+		
+		System.out.println("A média de gasto de cada mês foi = " + media + " reais");
+	}
+}
