@@ -1,0 +1,28 @@
+public class FuncaoEx01 {
+	 
+	 public static void main(String[] args) {
+		 
+		 float aFixo = (float) 5.45;
+		 float bFixo = (float) 8.60;
+		 float aDia = (float) 2.05;
+		 float bDia = (float) 1.90;
+		 float assinaturaA;
+		 float assinaturaB;
+		 float dif;
+		 
+		 assinaturaA = (aDia * 20) + aFixo;
+		 assinaturaB = (bDia * 20) + bFixo;
+		 
+		 System.out.println("O valor pago por ambas assinaturas foi de \n" + "Assinatura A = " + assinaturaA + "\n" + "Assinatura B = " + assinaturaB);
+	     
+		 if(assinaturaA > assinaturaB) {
+			 dif = assinaturaA - assinaturaB;
+			 System.out.println("A diferença de valor da assinatura é: " + dif);
+		 } else {
+			 dif = assinaturaB - assinaturaA;
+			 System.out.println("A diferença de valor da assinatura é: " + dif);
+		 }
+	 }
+
+       }
+
